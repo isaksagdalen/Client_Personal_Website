@@ -1,8 +1,46 @@
+/* REUSABLE COMPONENTS */
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.margin-bottom-big {
+  margin-bottom: 4.8rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.align-center-v {
+  align-items: center;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* SECTION HEADER */
 .header {
-  height: 105vh;
+  height: 100vh;
   position: relative;
   margin: 0 auto;
-
+  margin-bottom: 9.6rem;
   background-color: rgb(77, 182, 96, 0.22);
 }
 
@@ -37,6 +75,7 @@
 .nav-links:visited {
   display: inline-block;
   text-decoration: none;
+
   color: #333;
   font-size: 2rem;
 }
@@ -89,10 +128,47 @@
   font-size: 6.8rem;
   font-weight: 700;
   text-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 2.4rem;
 }
 
 .heading-secondary {
-  font-size: 4.8rem;
+  font-size: 3.6rem;
   font-weight: 400;
   text-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+/* SECTION OM MEG */
+/* .section-om-meg {
+  padding: 9.6rem 0;
+}
+
+.om-meg-box {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.anna-img {
+  width: 100%;
+} */
+
+.section-om-meg {
+  margin-bottom: 9.6rem;
+}
+
+.om-meg-heading {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.om-meg-description {
+  font-size: 1.8rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.om-meg-img {
+  width: 100%;
 }
