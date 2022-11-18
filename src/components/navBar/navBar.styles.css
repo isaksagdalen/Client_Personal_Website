@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 3rem 4rem;
+}
+
+.logo-box {
+  height: 13rem;
+}
+
+.logo {
+  height: 100%;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  list-style: none;
+}
+
+.nav-items {
+  display: inline-block;
+}
+
+.nav-links:link,
+.nav-links:visited {
+  display: inline-block;
+  text-decoration: none;
+
+  color: #333;
+  font-size: 2rem;
+}
+
+.nav-links:hover,
+.nav-links:active {
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #378345;
+  font-size: 2rem;
+  color: #fff;
+  padding: 2rem 4rem;
+  border-radius: 3px;
+}
+
+.btn:hover,
+.btn:active {
+}
