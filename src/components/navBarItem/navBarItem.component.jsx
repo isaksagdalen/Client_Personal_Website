@@ -1,11 +1,11 @@
 import "./navBarItem.styles.css";
 
-function NavBarItem({ title, link }) {
+function NavBarItem({ onClick, title, link, index }) {
   return (
     <li className='nav-items'>
-      <a href={link} className='nav-links'>
+      <p className='nav-links' data={index} onClick={onClick}>
         {title}
-      </a>
+      </p>
     </li>
   );
 }

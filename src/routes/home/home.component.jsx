@@ -3,8 +3,8 @@ import { Fragment } from "react";
 import NavBar from "../../components/navBar/navBar.component";
 
 const HOME_NAV_BAR_ITEMS = [
-  { title: "Om meg", link: "#" },
-  { title: "Priser", link: "#" },
+  { title: "Om meg", link: "#", index: 1 },
+  { title: "Priser", link: "#", index: 2 },
 ];
 
 function Home() {
@@ -25,7 +25,7 @@ function Home() {
         </div>
       </header>
 
-      <section className='section-om-meg'>
+      <section id='1' className='section-om-meg'>
         <div className='container grid grid--2-cols align-center-v  margin-bottom-big'>
           <div className='image-box'>
             <img

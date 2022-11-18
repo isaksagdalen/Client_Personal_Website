@@ -21,23 +21,6 @@
   list-style: none;
 }
 
-.nav-items {
-  display: inline-block;
-}
-
-.nav-links:link,
-.nav-links:visited {
-  display: inline-block;
-  text-decoration: none;
-
-  color: #333;
-  font-size: 2rem;
-}
-
-.nav-links:hover,
-.nav-links:active {
-}
-
 .btn:link,
 .btn:visited {
   display: inline-block;

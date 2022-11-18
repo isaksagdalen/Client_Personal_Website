@@ -2,12 +2,15 @@ import "./navBar.styles.css";
 import NavBarItem from "../navBarItem/navBarItem.component";
 
 function navLinkPressHandler(e) {
-  const { target } = e;
+  const data = e.target.getAttribute("data");
+
+  const selectedElement = document.getElementById(data.toString());
+  selectedElement.scrollIntoView({ behavior: "smooth" });
 }
 
 function NavBar({ navBarItems }) {
   return (
-    <navigation className='nav'>
+    <div className='nav'>
       <div className='logo-box'>
         <img
           src={require("../../assets/original.png")}
@@ -16,14 +19,20 @@ function NavBar({ navBarItems }) {
         />
       </div>
       <ul className='nav-list'>
-        {navBarItems.map(({ title, link }) => (
-          <NavBarItem title={title} link={link} />
+        {navBarItems.map(({ title, link, index }) => (
+          <NavBarItem
+            onClick={navLinkPressHandler}
+            title={title}
+            link={link}
+            key={title}
+            index={index}
+          />
         ))}
         <a href='#' className='btn'>
           Bestill time
         </a>
       </ul>
-    </navigation>
+    </div>
   );
 }
 
