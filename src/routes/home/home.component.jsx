@@ -20,7 +20,7 @@ function Home() {
         <div className="header-text-box">
           <h1 className="heading-primary">Anna Skjelbred</h1>
           <h2 className="heading-secondary">
-            &copy; Skjelbred Psykolog Consulting
+            &copy;Skjelbred Psykolog Consulting
           </h2>
         </div>
       </header>

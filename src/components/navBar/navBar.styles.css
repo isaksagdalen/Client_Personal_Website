@@ -26,11 +26,12 @@
   position: relative;
   display: inline-block;
   text-decoration: none;
+  text-transform: uppercase;
   background-color: #378345;
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 500;
   color: #fff;
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
   border-radius: 3px;
   transition: all 0.3s;
 }
