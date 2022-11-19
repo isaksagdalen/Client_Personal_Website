@@ -3,9 +3,9 @@ import NavBarItem from "../navBarItem/navBarItem.component";
 
 function navLinkPressHandler(e) {
   const data = e.target.getAttribute("data");
-  console.log(data);
+
   const selectedElement = document.getElementById(data.toString());
-  console.log(selectedElement);
+
   selectedElement.scrollIntoView({ behavior: "smooth" });
 }
 
