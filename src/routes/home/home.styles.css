@@ -66,7 +66,7 @@
   height: 100vh;
   position: relative;
   margin: 0 auto;
-  margin-bottom: 9.6rem;
+  /* margin-bottom: 9.6rem; */
   font-family: "Cormorant Garamond";
   background-color: rgb(77, 182, 96, 0.22);
 }
@@ -114,7 +114,23 @@
 /* SECTION OM MEG */
 
 .section-om-meg {
-  margin-bottom: 9.6rem;
+  /* margin-bottom: 9.6rem; */
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(39, 91, 48, 0.849),
+    rgba(72, 170, 90, 0.836)
+  );
+  /* background-color: rgba(72, 170, 90, 0.836); */
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+
+.bg-white {
+  background-color: #edf8ef;
+  padding: 4rem;
+  border-radius: 11px;
+  box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.15);
 }
 
 .om-meg-heading {
@@ -133,6 +149,12 @@
 }
 
 /* SECTION PRISER */
+
+.priser {
+  position: relative;
+  margin-bottom: 9.6rem;
+  padding-top: 25rem;
+}
 
 .card {
   perspective: 150rem;
@@ -291,4 +313,25 @@
 .card-price-value {
   font-size: 4.2rem;
   font-weight: 300;
+}
+
+/* SHAPE DEVIDER */
+.custom-shape-divider-top-1668869023 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1668869023 svg {
+  position: relative;
+  display: block;
+  width: calc(125% + 1.3px);
+  height: 155px;
+}
+
+.custom-shape-divider-top-1668869023 .shape-fill {
+  fill: #4db660d1;
 }
