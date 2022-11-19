@@ -1,5 +1,6 @@
 .nav-items {
   display: inline-block;
+  cursor: default;
 }
 
 .nav-links {
@@ -8,9 +9,6 @@
 
   color: #333;
   font-size: 2rem;
-}
-.nav-links:hover {
-  cursor: default;
 }
 
 .nav-links:hover,
