@@ -10,15 +10,15 @@ function navLinkPressHandler(e) {
 
 function NavBar({ navBarItems }) {
   return (
-    <div className='nav'>
-      <div className='logo-box'>
+    <div className="nav">
+      <div className="logo-box">
         <img
           src={require("../../assets/original.png")}
-          alt='logo'
-          className='logo'
+          alt="logo"
+          className="logo"
         />
       </div>
-      <ul className='nav-list'>
+      <ul className="nav-list margin-right-big">
         {navBarItems.map(({ title, link, index }) => (
           <NavBarItem
             onClick={navLinkPressHandler}
@@ -28,7 +28,7 @@ function NavBar({ navBarItems }) {
             index={index}
           />
         ))}
-        <a href='#' className='btn'>
+        <a href="#" className="btn">
           Bestill time
         </a>
       </ul>

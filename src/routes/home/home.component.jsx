@@ -12,6 +12,41 @@ function Home() {
     <Fragment>
       <header className="header">
         <NavBar navBarItems={HOME_NAV_BAR_ITEMS} />
+
+        <div className="menu">
+          {/* <div className="navigation-button">
+            <span className="navigation-icon">&nbsp;</span>
+          </div> */}
+
+          <input type="checkbox" className="menu-checkbox" id="menu-toggle" />
+
+          <label htmlFor="menu-toggle" className="navigation-button">
+            <span className="navigation-icon">&nbsp;</span>
+          </label>
+
+          <div className="menu-background">&nbsp;</div>
+
+          <div className="menu-open">
+            <ul className="menu-list">
+              <li className="menu-item">
+                <a href="#" className="menu-link">
+                  <span>01</span> Psykologisk Behandling
+                </a>
+              </li>
+              <li className="menu-item">
+                <a href="#" className="menu-link">
+                  <span>02</span> Psykologisk Veiledning
+                </a>
+              </li>
+              <li className="menu-item">
+                <a href="#" className="menu-link">
+                  <span>03</span> ISTDP
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <div className="bg-video">
           <video className="video-content" autoPlay muted loop>
             <source src={require("../../assets/video.mp4")} type="video/mp4" />
