@@ -84,8 +84,8 @@ function Home() {
         </div>
       </section>
 
-      <section id='2' className='priser'>
-        <div className='container grid grid--3-cols align-center-v'>
+      <section className='priser'>
+        <div id='2' className='container grid grid--3-cols align-center-v'>
           <div className='card'>
             <div className='card-side card-side-front'>
               <div className='card-picture card-picture-1'>&nbsp;</div>
