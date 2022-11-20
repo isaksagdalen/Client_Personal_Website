@@ -13,35 +13,35 @@ const HOME_NAV_BAR_ITEMS = [
 function Home() {
   return (
     <Fragment>
-      <header className='header'>
+      <header className="header">
         <NavBar navBarItems={HOME_NAV_BAR_ITEMS} />
         <Menu />
 
-        <div className='bg-video'>
-          <video className='video-content' autoPlay muted loop>
-            <source src={require("../../assets/video.mp4")} type='video/mp4' />
+        <div className="bg-video">
+          <video className="video-content" autoPlay muted loop>
+            <source src={require("../../assets/video.mp4")} type="video/mp4" />
           </video>
         </div>
-        <div className='header-text-box'>
-          <h1 className='heading-primary'>Anna Skjelbred</h1>
-          <h2 className='heading-secondary'>
+        <div className="header-text-box">
+          <h1 className="heading-primary">Anna Skjelbred</h1>
+          <h2 className="heading-secondary">
             &copy;Skjelbred Psykolog Consulting
           </h2>
         </div>
       </header>
 
-      <section id='1' className='section-om-meg'>
-        <div className='container grid grid--2-cols align-center-v bg-white'>
-          <div className='image-box'>
+      <section id="1" className="section-om-meg">
+        <div className="container grid grid--2-cols align-center-v bg-white">
+          <div className="image-box">
             <img
               src={require("../../assets/d.png")}
-              alt='anna'
-              className='om-meg-img'
+              alt="anna"
+              className="om-meg-img"
             />
           </div>
-          <div className='text-box'>
-            <div className='om-meg-heading'>Litt om meg</div>
-            <div className='om-meg-description'>
+          <div className="text-box">
+            <div className="om-meg-heading">Litt om meg</div>
+            <div className="om-meg-description">
               Jeg er utdannet psykolog fra NTNU. Til daglig arbeider jeg ved St.
               Olavs hospital som poliklinisk behandler og har erfaring med
               behandling av forskjellige typer psykiske lidelser og psykologiske
@@ -54,94 +54,94 @@ function Home() {
         </div>
       </section>
 
-      <section className='priser'>
-        <div id='2' className='container grid grid--3-cols align-center-v'>
-          <div className='card'>
-            <div className='card-side card-side-front'>
-              <div className='card-picture card-picture-1'>&nbsp;</div>
-              <h4 className='card-heading'>
-                <span className='card-heading-span card-heading-span-1'>
+      <section id="2" className="priser">
+        <div className="container grid grid--3-cols align-center-v">
+          <div className="card">
+            <div className="card-side card-side-front">
+              <div className="card-picture card-picture-1">&nbsp;</div>
+              <h4 className="card-heading">
+                <span className="card-heading-span card-heading-span-1">
                   Enkel <br /> time
                 </span>
               </h4>
-              <div className='card-details'>
-                <ul className='details-list'>
-                  <li className='details-item'>Varighet:</li>
-                  <li className='details-item'>50 min</li>
+              <div className="card-details">
+                <ul className="details-list">
+                  <li className="details-item">Varighet:</li>
+                  <li className="details-item">50 min</li>
                 </ul>
               </div>
             </div>
-            <div className='card-side card-side-back card-side-back-1'>
-              <div className='card-cta'>
-                <div className='card-price-box'>
+            <div className="card-side card-side-back card-side-back-1">
+              <div className="card-cta">
+                <div className="card-price-box">
                   {/* <p className="card-price-text">Bare</p> */}
-                  <p className='card-price-value'> kr 1.350,-</p>
+                  <p className="card-price-value"> kr 1.350,-</p>
                 </div>
-                <a href='#' className='btn-white'>
+                <a href="#" className="btn-white">
                   Bestill time nå
                 </a>
               </div>
             </div>
           </div>
 
-          <div className='card'>
-            <div className='card-side card-side-front'>
-              <div className='card-picture card-picture-2'>&nbsp;</div>
-              <h4 className='card-heading'>
-                <span className='card-heading-span card-heading-span-1'>
+          <div className="card">
+            <div className="card-side card-side-front">
+              <div className="card-picture card-picture-2">&nbsp;</div>
+              <h4 className="card-heading">
+                <span className="card-heading-span card-heading-span-1">
                   Student <br /> pris
                 </span>
               </h4>
-              <div className='card-details'>
-                <ul className='details-list'>
-                  <li className='details-item'>Varighet:</li>
-                  <li className='details-item'>50 min</li>
+              <div className="card-details">
+                <ul className="details-list">
+                  <li className="details-item">Varighet:</li>
+                  <li className="details-item">50 min</li>
                 </ul>
               </div>
             </div>
-            <div className='card-side card-side-back card-side-back-2'>
-              <div className='card-cta'>
-                <div className='card-price-box'>
+            <div className="card-side card-side-back card-side-back-2">
+              <div className="card-cta">
+                <div className="card-price-box">
                   {/* <p className="card-price-text">Bare</p> */}
-                  <p className='card-price-value'> kr 1.200,-</p>
+                  <p className="card-price-value"> kr 1.200,-</p>
                 </div>
-                <a href='#' className='btn-white'>
+                <a href="#" className="btn-white">
                   Bestill time nå
                 </a>
               </div>
             </div>
           </div>
 
-          <div className='card'>
-            <div className='card-side card-side-front'>
-              <div className='card-picture card-picture-3'>&nbsp;</div>
-              <h4 className='card-heading'>
-                <span className='card-heading-span card-heading-span-3'>
+          <div className="card">
+            <div className="card-side card-side-front">
+              <div className="card-picture card-picture-3">&nbsp;</div>
+              <h4 className="card-heading">
+                <span className="card-heading-span card-heading-span-3">
                   Dobbelt <br /> time
                 </span>
               </h4>
-              <div className='card-details'>
-                <ul className='details-list'>
-                  <li className='details-item'>Varighet:</li>
-                  <li className='details-item'>90 min</li>
+              <div className="card-details">
+                <ul className="details-list">
+                  <li className="details-item">Varighet:</li>
+                  <li className="details-item">90 min</li>
                 </ul>
               </div>
             </div>
-            <div className='card-side card-side-back card-side-back-3'>
-              <div className='card-cta'>
-                <div className='card-price-box'>
+            <div className="card-side card-side-back card-side-back-3">
+              <div className="card-cta">
+                <div className="card-price-box">
                   {/* <p className="card-price-text">Bare</p> */}
-                  <p className='card-price-value'> kr 1.900,-</p>
+                  <p className="card-price-value"> kr 1.900,-</p>
                 </div>
-                <a href='#' className='btn-white'>
+                <a href="#" className="btn-white">
                   Bestill time nå
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div className='pris-description margin-top-big'>
-          <p className='pris-description-text'>
+        <div className="pris-description margin-top-big">
+          <p className="pris-description-text">
             Avbestilling pr. sms eller mail. Senest 72 timer (3 dager) før
             timen. <br /> For ubenyttede og for sent avbestilte timer faktureres
             det et gebyr på kr 600,-.
