@@ -10,6 +10,12 @@
   height: 13rem;
 }
 
+@media screen and (max-width: 56.25em) {
+  .logo-box {
+    height: 8rem;
+  }
+}
+
 .logo {
   height: 100%;
 }
@@ -19,6 +25,12 @@
   align-items: center;
   gap: 6rem;
   list-style: none;
+}
+
+@media screen and (max-width: 56.25em) {
+  .nav-list {
+    gap: 4rem;
+  }
 }
 
 .btn:link,
@@ -34,6 +46,14 @@
   padding: 2rem 3rem;
   border-radius: 3px;
   transition: all 0.3s;
+}
+
+@media screen and (max-width: 56.25em) {
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+    padding: 1.5rem 2rem;
+  }
 }
 
 .btn:hover,

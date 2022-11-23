@@ -69,6 +69,14 @@
   transition: all 0.3s;
 }
 
+@media screen and (max-width: 56.25rem) {
+  .btn-white:link,
+  .btn-white:visited {
+    padding: 1.5rem 2rem;
+    text-align: center;
+  }
+}
+
 .btn-white:hover {
   transform: scale(1.05);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
@@ -116,14 +124,15 @@
   position: absolute;
   top: 55%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .heading-primary {
-  font-size: 7.8rem;
+  font-size: 6.8rem;
   letter-spacing: 10px;
-  word-spacing: 12px;
+  word-spacing: 6px;
   text-transform: uppercase;
   font-weight: 600;
   text-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15);
@@ -167,8 +176,21 @@
   box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.15);
 }
 
+@media screen and (max-width: 56.25rem) {
+  .bg-white {
+    width: 80%;
+    padding: 2rem 3rem;
+  }
+}
+
 .text-box {
   width: 85%;
+}
+
+@media screen and (max-width: 56.25rem) {
+  .text-box {
+    width: 100%;
+  }
 }
 
 .om-meg-heading {
@@ -200,6 +222,15 @@
   height: 52rem;
 }
 
+@media screen and (max-width: 56.25rem) {
+  .card {
+    height: auto;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  }
+}
+
 .card-side {
   background-color: orangered;
   color: #fff;
@@ -216,12 +247,27 @@
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 }
 
+@media screen and (max-width: 56.25rem) {
+  .card-side {
+    height: auto;
+    position: relative;
+    box-shadow: none;
+  }
+}
+
 .card-side-front {
   background-color: #fff;
 }
 
 .card-side-back {
   transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 56.25rem) {
+  .card-side-back {
+    transform: rotateY(0);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  }
 }
 
 .card-side-back-1 {
@@ -238,6 +284,12 @@
 
 .card:hover .card-side-front {
   transform: rotateY(-180deg);
+}
+
+@media screen and (max-width: 56.25rem) {
+  .card:hover .card-side-front {
+    transform: rotateY(0);
+  }
 }
 
 .card:hover .card-side-back {
@@ -313,6 +365,12 @@
   padding: 3rem;
 }
 
+@media screen and (max-width: 56.25rem) {
+  .card-details {
+    padding: 1rem 3rem;
+  }
+}
+
 .details-list {
   list-style: none;
   width: 80%;
@@ -336,10 +394,27 @@
   transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 56.25rem) {
+  .card-cta {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0);
+    width: 100%;
+    padding: 7rem 4rem 4rem 4rem;
+  }
+}
+
 .card-price-box {
   text-align: center;
   margin-bottom: 8rem;
   color: #fff;
+}
+
+@media screen and (max-width: 56.25rem) {
+  .card-price-box {
+    margin-bottom: 3rem;
+  }
 }
 
 .card-price-text {
@@ -351,6 +426,12 @@
 .card-price-value {
   font-size: 4.2rem;
   font-weight: 300;
+}
+
+@media screen and (max-width: 56.25rem) {
+  .card-price-value {
+    font-size: 4rem;
+  }
 }
 
 .pris-description {

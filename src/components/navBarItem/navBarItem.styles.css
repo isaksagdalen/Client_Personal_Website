@@ -12,6 +12,12 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 56.25em) {
+  .nav-links {
+    font-size: 2rem;
+  }
+}
+
 .nav-links:hover {
   color: #367f43;
 }
