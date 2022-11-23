@@ -2,8 +2,6 @@ import "./menu.styles.css";
 import { Link } from "react-router-dom";
 
 function Menu() {
-  function menuLinkHandler() {}
-
   return (
     <div className='menu'>
       {/* <div className="navigation-button">
@@ -16,18 +14,16 @@ function Menu() {
         <span className='navigation-icon'>&nbsp;</span>
       </label>
 
-      <div className='menu-background'>&nbsp;</div>
-
-      <div className='menu-open'>
+      <div className='menu-background'>
         <ul className='menu-list'>
           <li className='menu-item'>
             <Link to='/psykologisk-behandling' className='menu-link'>
-              <span>01</span> Psykologisk Behandling
+              <span>01</span> Behandling
             </Link>
           </li>
           <li className='menu-item'>
             <Link to='/psykologisk-veiledning' className='menu-link'>
-              <span>02</span> Psykologisk Veiledning
+              <span>02</span> Veiledning
             </Link>
           </li>
           <li className='menu-item'>
