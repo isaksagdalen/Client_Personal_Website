@@ -19,7 +19,7 @@ function Home() {
 
         <div className="bg-video">
           <video className="video-content" autoPlay muted loop>
-            <source src={require("../../assets/video.mp4")} type="video/mp4" />
+            <source src={require("../../assets/video2.mp4")} type="video/mp4" />
           </video>
         </div>
         <div className="header-text-box">
