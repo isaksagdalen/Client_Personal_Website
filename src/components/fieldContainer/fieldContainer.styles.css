@@ -5,10 +5,22 @@
   font-weight: 700;
 }
 
+@media screen and (max-width: 37.5em) {
+  .form-title {
+    font-size: 3rem;
+  }
+}
+
 .input-area {
   padding: 5px;
   height: 30px;
   width: 30vw;
+}
+
+@media screen and (max-width: 37.5em) {
+  .input-area {
+    width: 70vw;
+  }
 }
 
 .field-container {

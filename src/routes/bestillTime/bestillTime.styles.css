@@ -26,8 +26,14 @@
   align-items: center;
 }
 
+@media screen and (max-width: 37.5em) {
+  .map-form-container {
+    flex-direction: column-reverse;
+  }
+}
+
 .map-container {
-  width: "100%";
+  width: 100%;
   height: " calc(100vh - 77px)";
 }
 
@@ -36,6 +42,12 @@
   width: 30vw;
   height: 60vh; /* calculate height of the screen minus the heading */
   margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 37.5em) {
+  .map-wrap {
+    width: 70vw;
+  }
 }
 
 .map {
@@ -51,4 +63,10 @@
 
 .map-title {
   margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 37.5em) {
+  .map-title {
+    font-size: 4rem;
+  }
 }

@@ -13,7 +13,7 @@ function navLinkPressHandler(e) {
 function NavBar({ navBarItems, bestill }) {
   return (
     <div className="nav">
-      <Link to="/" onClick={console.log("Logo")} className="logo-box">
+      <Link to="/" className="logo-box">
         <img
           src={require("../../assets/original.png")}
           alt="logo"

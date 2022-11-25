@@ -444,6 +444,12 @@
   text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 
+@media screen and (max-width: 37.5em) {
+  .pris-description-text {
+    font-size: 2rem;
+  }
+}
+
 /* SHAPE DEVIDER */
 
 /* FOOTER */

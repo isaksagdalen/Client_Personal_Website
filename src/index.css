@@ -57,3 +57,9 @@ body {
     font-size: 30%;
   }
 }
+
+@media screen and (max-width: 30em) {
+  html {
+    font-size: 25%;
+  }
+}
