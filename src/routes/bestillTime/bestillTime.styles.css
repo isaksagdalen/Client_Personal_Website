@@ -70,3 +70,37 @@
     font-size: 4rem;
   }
 }
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hidden-modal {
+  display: none;
+}
+
+.modal {
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0rem 5rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.mld {
+  color: #0f2413;
+  font-size: 3rem;
+}

@@ -11,6 +11,8 @@ import emailjs from "@emailjs/browser";
 import { useState, useEffect } from "react";
 
 function BestillTime() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const mapContainer = useRef(null);
   const map = useRef(null);
   const [lng] = useState(10.3975004);
@@ -28,37 +30,41 @@ function BestillTime() {
     });
     map.current.addControl(new maplibregl.NavigationControl(), "top-right");
     new maplibregl.Marker({ color: "#FF0000" })
-      .setLngLat([10.3975004, 63.4340235])
+      .setLngLat([lng, lat])
       .addTo(map.current);
   });
 
   const form = useRef();
   const sendEmail = (e) => {
-    emailjs
-      .sendForm(
-        "service_m66bz64",
-        "template_px3g327",
-        form.current,
-        "qERSkzCuShagwk9op"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    toggleModal();
+
+    emailjs.sendForm(
+      "service_j3spnv2",
+      "template_led565j",
+      form.current,
+      "qERSkzCuShagwk9op"
+    );
   };
+
+  function toggleModal() {
+    setIsModalOpen(!isModalOpen);
+  }
 
   return (
     <div>
       <NavBar bestill={true} />
       <Menu />
+      {isModalOpen && (
+        <div className='modal hidden'>
+          <h2 className='mld'>Melding Sendt!</h2>
+          <button onClick={toggleModal} className='close-modal'>
+            &times;
+          </button>
+        </div>
+      )}
       <div className='map-form-container'>
         <div className='map-title-container'>
-          
-          <h2 className="map-title">Adresse: Nordre Gate 21</h2>
+          <h2 className='map-title'>Adresse: Nordre Gate 21</h2>
           <div className='map-wrap'>
             <div ref={mapContainer} className='map' />
           </div>
