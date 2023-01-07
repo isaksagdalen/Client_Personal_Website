@@ -1,5 +1,6 @@
 import "./navBar.styles.css";
 import NavBarItem from "../navBarItem/navBarItem.component";
+
 import { Link } from "react-router-dom";
 
 function navLinkPressHandler(e) {
@@ -12,15 +13,15 @@ function navLinkPressHandler(e) {
 
 function NavBar({ navBarItems, bestill }) {
   return (
-    <div className="nav">
-      <Link to="/" className="logo-box">
+    <div className='nav'>
+      <Link to='/' className='logo-box'>
         <img
           src={require("../../assets/original.png")}
-          alt="logo"
-          className="logo"
+          alt='logo'
+          className='logo'
         />
       </Link>
-      <ul className="nav-list margin-right-big">
+      <ul className='nav-list margin-right-big'>
         {navBarItems?.map(({ title, link, index }) => (
           <NavBarItem
             onClick={navLinkPressHandler}
@@ -31,7 +32,7 @@ function NavBar({ navBarItems, bestill }) {
           />
         ))}
         {!bestill && (
-          <Link to="/bestill" className="btn">
+          <Link to='/bestill' className='btn'>
             Bestill time
           </Link>
         )}

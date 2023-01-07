@@ -4,7 +4,6 @@ import Footer from "../../components/footer/footer.component";
 import Menu from "../../components/menu/menu.component";
 import FieldContainer from "../../components/fieldContainer/fieldContainer.component";
 import React, { useRef } from "react";
-import Map, { NavigationControl } from "react-map-gl";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import emailjs from "@emailjs/browser";
@@ -35,7 +34,7 @@ function BestillTime() {
   });
 
   const form = useRef();
-  const sendEmail = (e) => {
+  const sendEmail = () => {
     toggleModal();
 
     emailjs.sendForm(
