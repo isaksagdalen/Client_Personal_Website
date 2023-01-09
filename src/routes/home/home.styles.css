@@ -306,24 +306,24 @@
 
 .card-picture-1 {
   background-image: linear-gradient(to right bottom, #4db660, #0f2413),
-    url(../../assets/d.png);
+    url(../../assets/picture1.webp);
 }
 
 .card-picture-2 {
   background-image: linear-gradient(to right bottom, #4db660, #0f2413),
-    url(../../assets/d.png);
+    url(../../assets/pic2.webp);
 }
 
 .card-picture-3 {
   background-image: linear-gradient(to right bottom, #4db660, #0f2413),
-    url(../../assets/d.png);
+    url(../../assets/pic3.jpg);
 }
 
 .card-heading {
   font-size: 2.8rem;
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
+  color: #101820;
   position: absolute;
   top: 12rem;
   right: 2rem;
