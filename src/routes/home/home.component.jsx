@@ -130,7 +130,6 @@ function Home() {
             <div className="card-side card-side-back card-side-back-3">
               <div className="card-cta">
                 <div className="card-price-box">
-                  {/* <p className="card-price-text">Bare</p> */}
                   <p className="card-price-value"> kr 1.900,-</p>
                 </div>
                 <a href="#" className="btn-white">
