@@ -47,6 +47,13 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+@media screen and (max-width: 37.55rem) {
+  .grid--3-cols {
+    grid-template-columns: 40rem;
+    justify-content: center;
+  }
+}
+
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
