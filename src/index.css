@@ -39,11 +39,11 @@ body {
   }
 }
 
-/* @media screen and (max-width: 37.5em) {
+@media screen and (max-width: 44em) {
   html {
     font-size: 30%;
   }
-} */
+}
 
 @media screen and (max-width: 30em) {
   html {
