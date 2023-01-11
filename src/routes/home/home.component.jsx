@@ -31,6 +31,7 @@ function Home() {
             muted
             loop
             ref={videoRef}
+            controls={false}
             style={{ display: "none" }}
           >
             <source src={require("../../assets/video2.mp4")} type="video/mp4" />
