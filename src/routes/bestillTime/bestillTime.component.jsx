@@ -6,7 +6,7 @@ import FieldContainer from "../../components/fieldContainer/fieldContainer.compo
 import React, { useRef } from "react";
 
 import emailjs from "@emailjs/browser";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function BestillTime() {
   const [isModalOpen, setIsModalOpen] = useState(false);
