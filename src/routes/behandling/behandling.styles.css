@@ -10,6 +10,12 @@
   width: 80%;
 }
 
+@media screen and (max-width: 37.5em) {
+  .behandling-image-box {
+    width: 100%;
+  }
+}
+
 .behandling-paragraph {
   color: #333;
   line-height: 1.5;
@@ -48,4 +54,11 @@
 .behandling-image-2 {
   height: 60rem;
   width: auto;
+}
+
+@media screen and (max-width: 37.5em) {
+  .behandling-image-2 {
+    width: 80%;
+    height: auto;
+  }
 }
