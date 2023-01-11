@@ -4,6 +4,7 @@ import NavBar from "../../components/navBar/navBar.component";
 import Menu from "../../components/menu/menu.component";
 import Footer from "../../components/footer/footer.component";
 import ShapeDivider from "../../components/shapeDivider/shapeDivider.component";
+import { useEffect, useRef } from "react";
 
 const HOME_NAV_BAR_ITEMS = [
   { title: "Om meg", link: "#", index: 1 },
@@ -11,6 +12,12 @@ const HOME_NAV_BAR_ITEMS = [
 ];
 
 function Home() {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    videoRef.current.style.display = "block";
+  }, []);
+
   return (
     <Fragment>
       <header className="header">
@@ -18,7 +25,14 @@ function Home() {
         <Menu />
 
         <div className="bg-video">
-          <video className="video-content" autoPlay muted loop>
+          <video
+            className="video-content"
+            autoPlay
+            muted
+            loop
+            ref={videoRef}
+            style={{ display: "none" }}
+          >
             <source src={require("../../assets/video2.mp4")} type="video/mp4" />
           </video>
         </div>

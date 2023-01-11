@@ -20,7 +20,7 @@ function Veiledning() {
           </div>
           <div className="veiledning-text-box">
             <div className="heading-secondary margin-bottom-big">
-              Psykologisk Veildening
+              Psykologisk Veiledning
             </div>
             <p className="behandling-paragraph">
               Livet byr på mange utfordringer og de fleste mennesker opplever en
