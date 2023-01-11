@@ -32,6 +32,7 @@ function Home() {
             loop
             ref={videoRef}
             controls={false}
+            controlslist="nofullscreen nodownload noremoteplayback noplaybackrate foobar"
             style={{ display: "none" }}
           >
             <source src={require("../../assets/video2.mp4")} type="video/mp4" />
