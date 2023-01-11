@@ -119,6 +119,8 @@
   z-index: -1;
   opacity: 0.55;
   overflow: hidden;
+  background-image: url(../../assets/video4.gif);
+  background-size: cover;
 }
 
 .video-content {

@@ -12,11 +12,11 @@ const HOME_NAV_BAR_ITEMS = [
 ];
 
 function Home() {
-  const videoRef = useRef(null);
+  // const videoRef = useRef(null);
 
-  useEffect(() => {
-    videoRef.current.style.display = "block";
-  }, []);
+  // useEffect(() => {
+  //   videoRef.current.style.display = "block";
+  // }, []);
 
   return (
     <Fragment>
@@ -25,7 +25,7 @@ function Home() {
         <Menu />
 
         <div className="bg-video">
-          <video
+          {/* <video
             className="video-content"
             autoPlay
             muted
@@ -36,7 +36,7 @@ function Home() {
             style={{ display: "none" }}
           >
             <source src={require("../../assets/video2.mp4")} type="video/mp4" />
-          </video>
+          </video> */}
         </div>
         <div className="header-text-box">
           <h1 className="heading-primary">Anna Skjelbred</h1>
