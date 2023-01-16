@@ -23,7 +23,10 @@ function Home() {
     <Fragment>
       <Helmet>
         <title>Trondheim Psykolog</title>
-        <meta name="description" content="Psykolog i Trondheim. Kontakt for profesjonell behandling av Skjelbred Consulting AS. "/>
+        <meta
+          name="description"
+          content="psykolog i trondheim. Kontakt for profesjonell behandling av Skjelbred Consulting AS. trondheim psykolog. Trondheim Psykolog. Psykolog i trondheim. psykolog i trondheim"
+        />
         <link rel="canonical" href="/" />
       </Helmet>
       <header className="header">
