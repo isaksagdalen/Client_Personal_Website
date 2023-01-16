@@ -5,6 +5,7 @@ import Menu from "../../components/menu/menu.component";
 import Footer from "../../components/footer/footer.component";
 import ShapeDivider from "../../components/shapeDivider/shapeDivider.component";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const HOME_NAV_BAR_ITEMS = [
   { title: "Om meg", link: "#", index: 1 },
@@ -20,6 +21,11 @@ function Home() {
 
   return (
     <Fragment>
+      <Helmet>
+        <title>Trondheim Psykolog</title>
+        <meta name="description" content="Psykolog i Trondheim. Kontakt for profesjonell behandling av Skjelbred Consulting AS. "/>
+        <link rel="canonical" href="/" />
+      </Helmet>
       <header className="header">
         <NavBar navBarItems={HOME_NAV_BAR_ITEMS} />
         <Menu />
