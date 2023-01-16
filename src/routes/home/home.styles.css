@@ -44,7 +44,7 @@
 }
 
 @media screen and (max-width: 37.55rem) {
-  .grid--2-cols {
+  .media {
     grid-template-columns: 40rem;
     justify-content: center;
   }
