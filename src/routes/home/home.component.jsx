@@ -4,7 +4,7 @@ import NavBar from "../../components/navBar/navBar.component";
 import Menu from "../../components/menu/menu.component";
 import Footer from "../../components/footer/footer.component";
 import ShapeDivider from "../../components/shapeDivider/shapeDivider.component";
-import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 const HOME_NAV_BAR_ITEMS = [
   { title: "Om meg", link: "#", index: 1 },
@@ -71,7 +71,7 @@ function Home() {
       </section>
 
       <section id="2" className="priser">
-        <div className="container grid grid--3-cols align-center-v">
+        <div className="container grid grid--2-cols align-center-v">
           <div className="card">
             <div className="card-side card-side-front">
               <div className="card-picture card-picture-1">&nbsp;</div>
@@ -91,39 +91,11 @@ function Home() {
               <div className="card-cta">
                 <div className="card-price-box">
                   {/* <p className="card-price-text">Bare</p> */}
-                  <p className="card-price-value"> kr 1.350,-</p>
+                  <p className="card-price-value"> kr 1.400,-</p>
                 </div>
-                <a href="#" className="btn-white">
+                <Link to="/bestill" className="btn-white">
                   Bestill time nå
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="card">
-            <div className="card-side card-side-front">
-              <div className="card-picture card-picture-2">&nbsp;</div>
-              <h4 className="card-heading">
-                <span className="card-heading-span card-heading-span-1">
-                  Student <br /> pris
-                </span>
-              </h4>
-              <div className="card-details">
-                <ul className="details-list">
-                  <li className="details-item">Varighet:</li>
-                  <li className="details-item">50 min</li>
-                </ul>
-              </div>
-            </div>
-            <div className="card-side card-side-back card-side-back-2">
-              <div className="card-cta">
-                <div className="card-price-box">
-                  {/* <p className="card-price-text">Bare</p> */}
-                  <p className="card-price-value"> kr 1.200,-</p>
-                </div>
-                <a href="#" className="btn-white">
-                  Bestill time nå
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -146,11 +118,11 @@ function Home() {
             <div className="card-side card-side-back card-side-back-3">
               <div className="card-cta">
                 <div className="card-price-box">
-                  <p className="card-price-value"> kr 1.900,-</p>
+                  <p className="card-price-value"> kr 2.300,-</p>
                 </div>
-                <a href="#" className="btn-white">
+                <Link to="/bestill" className="btn-white">
                   Bestill time nå
-                </a>
+                </Link>
               </div>
             </div>
           </div>

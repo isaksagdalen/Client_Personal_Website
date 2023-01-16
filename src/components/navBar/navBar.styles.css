@@ -17,6 +17,12 @@
   }
 }
 
+@media screen and (max-width: 37.55rem) {
+  .logo-box {
+    height: 5rem;
+  }
+}
+
 .logo {
   height: 100%;
 }
