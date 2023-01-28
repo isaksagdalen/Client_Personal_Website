@@ -22,6 +22,22 @@
   font-size: 1.6rem;
 }
 
+@media screen and (max-width: 43.75em) {
+  .behandling-paragraph {
+    
+    font-size: 2rem;
+  
+  }
+}
+
+@media screen and (max-width: 25em) {
+  .behandling-paragraph {
+    
+    font-size: 3rem;
+  
+  }
+}
+
 .behandling-paragraph:not(:last-child) {
   margin-bottom: 1.4rem;
 }
