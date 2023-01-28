@@ -17,6 +17,12 @@
   justify-self: flex-start;
 }
 
+@media screen and (max-width: 56.25em) {
+  .logo {
+    height: 5rem;
+  }
+}
+
 @media screen and (max-width: 18.75em) {
   .logo {
     display: none;
