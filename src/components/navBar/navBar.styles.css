@@ -3,6 +3,13 @@
   padding: 3rem;
 }
 
+@media screen and (max-width: 56.25em) {
+  .nav {
+    
+    padding: 3rem 1rem;
+  }
+}
+
 .nav-items-box {
   display: flex;
   flex-direction: row;
