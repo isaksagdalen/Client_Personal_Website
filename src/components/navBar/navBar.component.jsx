@@ -14,29 +14,31 @@ function navLinkPressHandler(e) {
 function NavBar({ navBarItems, bestill }) {
   return (
     <div className='nav'>
-      <Link to='/' className='logo-box'>
-        <img
-          src={require("../../assets/original.png")}
-          alt='psykolog-trondheim-logo'
-          className='logo'
-        />
-      </Link>
-      <ul className='nav-list margin-right-big'>
-        {navBarItems?.map(({ title, link, index }) => (
-          <NavBarItem
-            onClick={navLinkPressHandler}
-            title={title}
-            link={link}
-            key={title}
-            index={index}
+      <div className='nav-items-box'>
+        <Link to='/' className='logo-box'>
+          <img
+            className='logo'
+            src={require("../../assets/original.png")}
+            alt='psykolog-trondheim-logo'
           />
-        ))}
-        {!bestill && (
-          <Link to='/bestill' className='btn'>
-            Bestill time
-          </Link>
-        )}
-      </ul>
+        </Link>
+        <ul className='nav-list '>
+          {navBarItems?.map(({ title, link, index }) => (
+            <NavBarItem
+              onClick={navLinkPressHandler}
+              title={title}
+              link={link}
+              key={title}
+              index={index}
+            />
+          ))}
+          {!bestill && (
+            <Link to='/bestill' className='btn'>
+              Bestill time
+            </Link>
+          )}
+        </ul>
+      </div>
     </div>
   );
 }

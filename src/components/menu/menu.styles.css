@@ -15,7 +15,7 @@
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   text-align: center;
   cursor: pointer;
-  border: red solid;
+
   transition: all 0.5s;
 }
 
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 50em) {
   .navigation-button {
-    top: 5rem;
+    top: 3rem;
     right: 5rem;
   }
 }
