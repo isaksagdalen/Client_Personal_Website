@@ -10,12 +10,12 @@
     {
       "src": "favicon.ico",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "227x91"
     },
     {
       "src": "favicon.ico",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "227x91"
     }
   ],
   "start_url": ".",
