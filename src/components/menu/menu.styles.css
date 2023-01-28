@@ -22,11 +22,14 @@
 @media screen and (max-width: 56.25em) {
   .navigation-button {
     top: 3rem;
-    right: 3rem;
+    right: 1rem;
     height: 5rem;
 
     width: 5rem;
   }
+
+  
+
   .menu-button-open {
     transform: translate(3rem, -3rem) scale(0.7);
   }
@@ -35,7 +38,7 @@
 @media screen and (max-width: 50em) {
   .navigation-button {
     top: 3rem;
-    right: 5rem;
+    right: 1rem;
   }
 }
 

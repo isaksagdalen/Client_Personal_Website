@@ -73,6 +73,14 @@
   }
 }
 
+@media screen and (max-width: 50em) {
+  .btn:link,
+  .btn:visited {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+
 .btn:hover,
 .btn:active {
   background-color: #1f4926;
