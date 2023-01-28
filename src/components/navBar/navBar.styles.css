@@ -41,14 +41,13 @@
 @media screen and (max-width: 40.25em) {
   .logo {
     height: 5rem;
-    border: solid black;
   }
 }
 
 @media screen and (max-width: 30.25em) {
   .logo {
-    border: solid white;
-    height: 5rem;
+    border: solid grey;
+    height: 1rem;
   }
 }
 
