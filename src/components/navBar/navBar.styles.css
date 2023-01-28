@@ -46,8 +46,8 @@
 
 @media screen and (max-width: 30.25em) {
   .logo {
-    border: solid grey;
-    height: 1rem;
+    border: solid pink;
+    height: 20%;
   }
 }
 
