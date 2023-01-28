@@ -20,6 +20,49 @@
 @media screen and (max-width: 70.25em) {
   .logo-box {
     height: 8rem;
+    border: solid red;
+  }
+}
+
+@media screen and (max-width: 60.25em) {
+  .logo-box {
+    height: 8rem;
+    border: solid blue;
+  }
+}
+
+@media screen and (max-width: 50.25em) {
+  .logo-box {
+    height: 8rem;
+    border: solid yellow;
+  }
+}
+
+@media screen and (max-width: 40.25em) {
+  .logo-box {
+    height: 8rem;
+    border: solid black;
+  }
+}
+
+@media screen and (max-width: 30.25em) {
+  .logo-box {
+    height: 8rem;
+    border: solid white;
+  }
+}
+
+@media screen and (max-width: 20.25em) {
+  .logo-box {
+    height: 8rem;
+    border: solid pink;
+  }
+}
+
+@media screen and (max-width: 10.25em) {
+  .logo-box {
+    height: 8rem;
+    border: solid purple;
   }
 }
 
