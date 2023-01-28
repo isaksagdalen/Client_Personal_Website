@@ -33,61 +33,62 @@ function BestillTime() {
       <Helmet>
         <title>Bestill Time</title>
         <meta
-          name="description"
-          content="Bestill time til psykolog i Trondheim for behandling."
+          name='description'
+          content='Bestill time til psykolog i Trondheim for behandling.'
         />
-        <link rel="canonical" href="/bestill" />
+        <link rel='canonical' href='/bestill' />
       </Helmet>
       <div>
         <NavBar bestill={true} />
         <Menu />
         {isModalOpen && (
-          <div className="modal hidden">
-            <h2 className="mld">Melding Sendt!</h2>
-            <button onClick={toggleModal} className="close-modal">
+          <div className='modal hidden'>
+            <h2 className='mld'>Melding Sendt!</h2>
+            <button onClick={toggleModal} className='close-modal'>
               &times;
             </button>
           </div>
         )}
-        <div className="map-form-container">
-          <div className="map-title-container">
-            <h2 className="map-title">Adresse: Nordre Gate 21</h2>
-            <div className="map-wrap">
+        <div className='map-form-container'>
+          <div className='map-title-container'>
+            <h2 className='map-title'>Adresse: Nordre Gate 21</h2>
+            <div className='map-wrap'>
               <a
-                href="https://www.google.com/maps/@63.4340235,10.3975004,19z"
-                target="_blank"
+                href='https://www.google.com/maps/@63.4340235,10.3975004,19z'
+                target='_blank'
+                rel='noreferrer'
               >
                 <img
-                  alt="map"
+                  alt='kart-psykolog-trondheim'
                   src={require("../../assets/map.png")}
-                  className="map"
+                  className='map'
                 />
               </a>
             </div>
           </div>
 
-          <form ref={form} className="form-fields" onSubmit={sendEmail}>
+          <form ref={form} className='form-fields' onSubmit={sendEmail}>
             <FieldContainer
-              name="user_name"
-              type="text"
-              title="Navn"
-              placeholder="Anna Skjelbred"
+              name='user_name'
+              type='text'
+              title='Navn'
+              placeholder='Anna Skjelbred'
             />
             <FieldContainer
-              name="user_email"
-              type="email"
+              name='user_email'
+              type='email'
               required
-              title="E-postadresse"
-              placeholder="anna@gmail.com"
+              title='E-postadresse'
+              placeholder='anna@gmail.com'
             />
             <FieldContainer
-              name="message"
+              name='message'
               large={true}
-              type="text"
-              title="Melding"
-              placeholder=""
+              type='text'
+              title='Melding'
+              placeholder=''
             />
-            <button className="submit-form">Send</button>
+            <button className='submit-form'>Send</button>
           </form>
         </div>
 

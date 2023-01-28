@@ -17,7 +17,7 @@ function NavBar({ navBarItems, bestill }) {
       <Link to='/' className='logo-box'>
         <img
           src={require("../../assets/original.png")}
-          alt='logo'
+          alt='psykolog-trondheim-logo'
           className='logo'
         />
       </Link>

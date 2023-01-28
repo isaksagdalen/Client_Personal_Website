@@ -6,7 +6,7 @@ function Footer() {
       <div className='footer-logo-box margin-bottom-big'>
         <img
           src={require("../../assets/original.png")}
-          alt='logo'
+          alt='psykolog-trondheim-logo'
           className='footer-logo'
         />
       </div>
