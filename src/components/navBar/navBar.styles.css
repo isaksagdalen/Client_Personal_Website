@@ -17,21 +17,7 @@
   justify-self: flex-start;
 }
 
-@media screen and (max-width: 56.25em) {
-  .navigation-button {
-    top: 3rem;
-    right: 5rem;
-  }
-}
-
-@media screen and (max-width: 50em) {
-  .navigation-button {
-    top: 5rem;
-    right: 5rem;
-  }
-}
-
-@media screen and (max-width: 56.25em) {
+@media screen and (max-width: 70.25em) {
   .logo-box {
     height: 8rem;
   }
