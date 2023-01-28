@@ -25,7 +25,7 @@ function Home() {
         <title>Trondheim Psykolog</title>
         <meta
           name='description'
-          content='psykolog i trondheim. Kontakt for profesjonell behandling av Skjelbred Consulting AS. trondheim psykolog. Trondheim Psykolog. Psykolog i trondheim. psykolog i trondheim'
+          content='Psykolog i Trondheim. Kontakt for profesjonell behandling av Anna Skjelbred. Jeg tilbyr psykologisk behandling og veiledning.'
         />
         <link rel='canonical' href='/' />
       </Helmet>
@@ -49,9 +49,9 @@ function Home() {
         </div>
         <div className='header-text-box'>
           <h1 className='heading-primary'>Anna Skjelbred</h1>
-          {/*  <h2 className="heading-secondary">
-            &copy;Skjelbred Psykolog Consulting
-          </h2> */}
+          {/*
+      <h1>Psykolog i Trondheim. Jeg tilbyr både behandling og veiledning. Bestill eller kom i kontakt her. </h1>
+      */}
         </div>
       </header>
 
