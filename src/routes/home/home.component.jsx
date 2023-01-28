@@ -13,11 +13,7 @@ const HOME_NAV_BAR_ITEMS = [
 ];
 
 function Home() {
-  // const videoRef = useRef(null);
-
-  // useEffect(() => {
-  //   videoRef.current.style.display = "block";
-  // }, []);
+  
 
   return (
     <Fragment>
@@ -34,18 +30,7 @@ function Home() {
         <Menu />
 
         <div className='bg-video'>
-          {/* <video
-            className="video-content"
-            autoPlay
-            muted
-            loop
-            ref={videoRef}
-            controls={false}
-            controlslist="nofullscreen nodownload noremoteplayback noplaybackrate foobar"
-            style={{ display: "none" }}
-          >
-            <source src={require("../../assets/video2.mp4")} type="video/mp4" />
-          </video> */}
+        
         </div>
         <div className='header-text-box'>
           <h1 className='heading-primary'>Anna Skjelbred</h1>
@@ -99,7 +84,7 @@ function Home() {
             <div className='card-side card-side-back card-side-back-1'>
               <div className='card-cta'>
                 <div className='card-price-box'>
-                  {/* <p className="card-price-text">Bare</p> */}
+               
                   <p className='card-price-value'> kr 1.400,-</p>
                 </div>
                 <Link to='/bestill' className='btn-white'>
