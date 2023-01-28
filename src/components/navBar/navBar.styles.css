@@ -17,9 +17,15 @@
   }
 }
 
-@media screen and (max-width: 37.55rem) {
+@media screen and (max-width: 37.55em) {
   .logo-box {
     height: 5rem;
+  }
+}
+
+@media screen and (max-width: 18.75em) {
+  .logo-box {
+    display: none;
   }
 }
 

@@ -19,9 +19,16 @@
   transition: all 0.5s;
 }
 
-@media screen and (max-width: 56.25rem) {
+@media screen and (max-width: 56.25em) {
   .navigation-button {
     top: 3rem;
+    right: 5rem;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  .navigation-button {
+    top: 5rem;
     right: 5rem;
   }
 }
