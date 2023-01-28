@@ -40,14 +40,15 @@
 
 @media screen and (max-width: 40.25em) {
   .logo-box {
-    height: 5rem;
+    height: 1rem;
     border: solid black;
   }
 }
 
 @media screen and (max-width: 30.25em) {
   .logo-box {
-    height: 5rem;
+    border: solid white;
+    height: 1rem;
   }
 }
 
