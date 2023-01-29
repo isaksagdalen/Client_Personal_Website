@@ -3,7 +3,9 @@ const prerender = require("prerender-node");
 const path = require("path");
 const app = express();
 
-prerender.set("prerenderToken", "TFBiRy7DjbfcgJQ4Yb0c");
+app.use(
+  require("prerender-node").set("prerenderToken", "TFBiRy7DjbfcgJQ4Yb0c")
+);
 
 app.use(prerender);
 
