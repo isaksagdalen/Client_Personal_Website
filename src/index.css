@@ -56,3 +56,9 @@ body {
     font-size: 25%;
   }
 }
+
+.green-box {
+  height: 20rem;
+  width: 20rem;
+  background-color: red;
+}
