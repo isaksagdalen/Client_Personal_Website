@@ -58,7 +58,7 @@ body {
 }
 
 .green-box {
-  height: 20rem;
-  width: 20rem;
+  height: 20vh;
+  width: 20vw;
   background-color: red;
 }
