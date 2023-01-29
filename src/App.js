@@ -7,8 +7,8 @@ import Veiledning from "./routes/veiledning/veiledning.component";
 
 function App() {
   return (
-    <div>
-      <div className='green-box'></div>
+    
+     
       <Routes>
         <Route index element={<Home />} />
         <Route path='/psykologisk-veiledning' element={<Veiledning />} />
@@ -16,7 +16,7 @@ function App() {
         <Route path='/istdp' element={<ISTDP />} />
         <Route path='/bestill' element={<BestillTime />} />
       </Routes>
-    </div>
+  
   );
 }
 
