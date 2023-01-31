@@ -3,8 +3,8 @@
   "name": "Trondheim Psykolog - Anna Skjelbred",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "227x91",
+      "src": "original.png",
+      "sizes": "192x192 144x144 128x128 96x96 72x72 48x48 36x36 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
